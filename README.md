@@ -121,7 +121,21 @@ and document-based workflow extraction.
 
 ===============================================================================================================================
 
+
+You only copied the inner raw text, so it pasted as garbage.
+
+---
+
+# ✅ FIX IT (copy–paste this EXACT BLOCK)
+
+This is the correct, fully formatted Mermaid diagram block.
+
+### **👉 Copy this ENTIRE block and paste it into README.md**
+
+````markdown
+```mermaid
 flowchart TD
+
   subgraph Ingest
     A[User Query / UI (Gradio)] -->|query| B[Retrieval Engine (RAG/FAISS)]
   end
@@ -136,13 +150,15 @@ flowchart TD
   A --> UI2[Admin / Human Review Console]
 
   style A fill:#f8f9fa,stroke:#333
-  style B fill:#fff0d9
-  style C fill:#d9f0ff
-  style D fill:#e8d9ff
-  style E fill:#d9ffd9
-  style F fill:#fff1f0
-  style M fill:#f0f7ff
-  style O fill:#fffbe6
+  style B fill:#fff0d9,stroke:#333
+  style C fill:#d9f0ff,stroke:#333
+  style D fill:#e8d9ff,stroke:#333
+  style E fill:#d9ffd9,stroke:#333
+  style F fill:#fff1f0,stroke:#333
+  style G fill:#fff1f0,stroke:#333
+  style M fill:#f0f7ff,stroke:#333
+  style O fill:#fffbe6,stroke:#333
+
 
 
 
