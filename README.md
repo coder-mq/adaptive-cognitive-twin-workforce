@@ -29,7 +29,7 @@ ACTW is an intelligent multi-agent system that:
 
 4) Architecture Diagram (Text or Image)
    
-zChatGPT Image Dec 1, 2025, 06_42_34 AM.png
+ChatGPT Image Dec 1, 2025, 06_42_34 AM.png
 =====================================================================================================================
 
 5) Features
