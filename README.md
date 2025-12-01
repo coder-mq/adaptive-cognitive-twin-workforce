@@ -5,7 +5,7 @@
 
 ===================================================================================================================
 
-2) Problem Statement
+## 2) Problem Statement
 
 Enterprises rely on manual workflows such as refunds, IT access requests, onboarding, etc.
 These require human interpretation, multi-step execution, memory, and hand-offs.
@@ -15,7 +15,7 @@ ACTW solves this by using Cognitive Twins to automate workflows end-to-end.
 
 ====================================================================================================================
 
-3) Solution Summary
+## 3) Solution Summary
 
 ACTW is an intelligent multi-agent system that:
 - Extracts workflow steps from documents
@@ -34,7 +34,7 @@ ACTW is an intelligent multi-agent system that:
 
 =====================================================================================================================
 
-5) Features
+## 5) Features
    
 - Workflow ingestion from SOP files
 - FAISS + embeddings for workflow matching
@@ -46,7 +46,8 @@ ACTW is an intelligent multi-agent system that:
 - Full Observability (logs, metrics, events)
 - Gradio UI demo
 =====================================================================================================================
-6) Tech Stack
+
+## 6) Tech Stack
   
 - Python
 - HuggingFace Transformers
@@ -55,7 +56,8 @@ ACTW is an intelligent multi-agent system that:
 - GPT-based LLMs
 - Gradio
 ======================================================================================================================
-7) Project Structure
+
+## 7) Project Structure
 
 /README.md
 /GCP.ipynb
@@ -64,7 +66,9 @@ ACTW is an intelligent multi-agent system that:
 /onboarding_sop.txt
 
 =========================================================================================================================
-8) How To Run (Setup Instructions)
+
+
+## 8) How To Run (Setup Instructions)
 
 1. Open GCP.ipynb in Google Colab
 2. Install dependencies (already inside notebook)
@@ -76,14 +80,15 @@ ACTW is an intelligent multi-agent system that:
    - “User cannot access HR portal”
    - “New employee onboarding”
 ==========================================================================================================================
-9) Example Outputs
+
+## 9) Example Outputs
 
 1) <img width="335" height="294" alt="image" src="https://github.com/user-attachments/assets/3c4ead26-68b6-4ccf-a423-5cc399be99c7" />
 2) <img width="391" height="373" alt="image" src="https://github.com/user-attachments/assets/148f5d24-e3ea-4711-b1b7-7623a4f4e6da" />
 
 ===========================================================================================================================
 
-10. Safety Features
+## 10. Safety Features
 
 - No PII in responses
 - Requires human review if confidence < 7
@@ -92,14 +97,14 @@ ACTW is an intelligent multi-agent system that:
 
 ===========================================================================================================================
 
-11. Memory System
+## 11. Memory System
 
 The system stores task history and long-term memory.
 Memory enables improved routing and decision-making over time.
 
 ============================================================================================================================
 
-12. A2A Routing
+## 12. A2A Routing
 
 The system decides whether to:
 - auto resolve
@@ -108,14 +113,14 @@ The system decides whether to:
 
 ==============================================================================================================================
 
-14. Author
+## 14. Author
 
 Created by: Anvay Awalgaonkar
 Role: AI Engineer / Cognitive Automation
 
 ===============================================================================================================================
 
-Final Section — Conclusion
+## Final Section — Conclusion
 
 This project demonstrates how Cognitive Twins can autonomously execute
 enterprise workflows using reasoning, memory, routing, observability,
