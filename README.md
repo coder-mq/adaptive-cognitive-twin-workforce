@@ -27,10 +27,10 @@ ACTW is an intelligent multi-agent system that:
 - Provides observability and logs for every action
 =====================================================================================================================
 
-4) Architecture Diagram (Text or Image)
-   
-[ChatGPT Image Dec 1, 2025, 06_42_34 AM.png
-](https://github.com/coder-mq/adaptive-cognitive-twin-workforce/blob/main/ChatGPT%20Image%20Dec%201%2C%202025%2C%2006_42_34%20AM.png)
+## 4. Architecture Diagram
+
+![Architecture Diagram](https://raw.githubusercontent.com/coder-mq/adaptive-cognitive-twin-workforce/main/ChatGPT%20Image%20Dec%201%2C%202025%2C%2006_42_34%20AM.png)
+
 
 =====================================================================================================================
 
