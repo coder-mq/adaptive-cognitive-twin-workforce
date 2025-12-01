@@ -119,6 +119,33 @@ This project demonstrates how Cognitive Twins can autonomously execute
 enterprise workflows using reasoning, memory, routing, observability,
 and document-based workflow extraction.
 
+===============================================================================================================================
+
+flowchart TD
+  subgraph Ingest
+    A[User Query / UI (Gradio)] -->|query| B[Retrieval Engine (RAG/FAISS)]
+  end
+
+  B --> C[Cognitive Twin Builder]
+  C --> D[LLM Adapter (Gemini / HF)]
+  D --> E[Execution Agent]
+  E --> F[A2A Router / Task Orchestrator]
+  F --> G[Other Agents / Microservices]
+  E --> M[Session Service & Memory Bank]
+  D --> O[Observability: Logging / Metrics / Tracing]
+  A --> UI2[Admin / Human Review Console]
+
+  style A fill:#f8f9fa,stroke:#333
+  style B fill:#fff0d9
+  style C fill:#d9f0ff
+  style D fill:#e8d9ff
+  style E fill:#d9ffd9
+  style F fill:#fff1f0
+  style M fill:#f0f7ff
+  style O fill:#fffbe6
+
+
+
 
 
 
