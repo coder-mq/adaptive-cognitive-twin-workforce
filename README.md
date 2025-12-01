@@ -88,6 +88,8 @@ ACTW is an intelligent multi-agent system that:
 
 1) <img width="335" height="294" alt="image" src="https://github.com/user-attachments/assets/3c4ead26-68b6-4ccf-a423-5cc399be99c7" />
 2) <img width="391" height="373" alt="image" src="https://github.com/user-attachments/assets/148f5d24-e3ea-4711-b1b7-7623a4f4e6da" />
+3) <img width="1091" height="390" alt="image" src="https://github.com/user-attachments/assets/eb2fe432-7533-4e60-9855-b1d34d8d7120" />
+
 
 ===========================================================================================================================
 
