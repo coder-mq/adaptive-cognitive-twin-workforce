@@ -11,8 +11,8 @@ Enterprises rely on manual workflows such as refunds, IT access requests, onboar
 These require human interpretation, multi-step execution, memory, and hand-offs.
 Traditional automation (RPA, chatbots) fails due to lack of reasoning, flexibility, memory,
 and safe decision-making.
-
 ACTW solves this by using Cognitive Twins to automate workflows end-to-end.
+
 ====================================================================================================================
 
 3) Solution Summary
