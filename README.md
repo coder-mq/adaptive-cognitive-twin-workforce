@@ -29,7 +29,7 @@ ACTW is an intelligent multi-agent system that:
 
 4) Architecture Diagram (Text or Image)
    
-- User → Retrieval Engine → Cognitive Twin → Execution Engine → A2A Router → Memory → Logging Layer → Output
+zChatGPT Image Dec 1, 2025, 06_42_34 AM.png
 =====================================================================================================================
 
 5) Features
@@ -120,46 +120,6 @@ enterprise workflows using reasoning, memory, routing, observability,
 and document-based workflow extraction.
 
 ===============================================================================================================================
-
-
-You only copied the inner raw text, so it pasted as garbage.
-
----
-
-# ✅ FIX IT (copy–paste this EXACT BLOCK)
-
-This is the correct, fully formatted Mermaid diagram block.
-
-### **👉 Copy this ENTIRE block and paste it into README.md**
-
-````markdown
-```mermaid
-flowchart TD
-
-  subgraph Ingest
-    A[User Query / UI (Gradio)] -->|query| B[Retrieval Engine (RAG/FAISS)]
-  end
-
-  B --> C[Cognitive Twin Builder]
-  C --> D[LLM Adapter (Gemini / HF)]
-  D --> E[Execution Agent]
-  E --> F[A2A Router / Task Orchestrator]
-  F --> G[Other Agents / Microservices]
-  E --> M[Session Service & Memory Bank]
-  D --> O[Observability: Logging / Metrics / Tracing]
-  A --> UI2[Admin / Human Review Console]
-
-  style A fill:#f8f9fa,stroke:#333
-  style B fill:#fff0d9,stroke:#333
-  style C fill:#d9f0ff,stroke:#333
-  style D fill:#e8d9ff,stroke:#333
-  style E fill:#d9ffd9,stroke:#333
-  style F fill:#fff1f0,stroke:#333
-  style G fill:#fff1f0,stroke:#333
-  style M fill:#f0f7ff,stroke:#333
-  style O fill:#fffbe6,stroke:#333
-
-
 
 
 
