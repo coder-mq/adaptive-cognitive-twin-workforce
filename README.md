@@ -31,6 +31,9 @@ ACTW is an intelligent multi-agent system that:
 
 ![Architecture Diagram](https://raw.githubusercontent.com/coder-mq/adaptive-cognitive-twin-workforce/main/ChatGPT%20Image%20Dec%201%2C%202025%2C%2006_42_34%20AM.png)
 
+*The diagram illustrates the end-to-end flow of the Adaptive Cognitive Twin Workforce — from user query → retrieval → workflow interpretation → execution → routing → memory → observability.*
+
+
 
 =====================================================================================================================
 
